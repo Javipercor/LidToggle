@@ -21,12 +21,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(.separator())
         menu.addItem(toggleItem)
         menu.addItem(.separator())
-        for title in ["Also prevents sleep while the lid is open.",
-                      "A closed, awake Mac uses battery and generates heat.",
-                      "Restore sleep before putting your Mac in a bag."] {
-            menu.addItem(NSMenuItem(title: title, action: nil, keyEquivalent: ""))
-        }
-        menu.addItem(.separator())
         menu.addItem(quitItem)
         statusItem.menu = menu
         refresh()
