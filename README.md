@@ -2,6 +2,10 @@
 
 A native macOS menu bar app that toggles system sleep, including sleep triggered by closing the lid on supported Macs. Built with Swift and AppKit, with no external dependencies.
 
+## Windows 11
+
+A native Windows tray version is available in [Windows](Windows/README.md), with a toggle for lid-close sleep and restoration of the original power settings. Build a self-contained executable with `./Scripts/build-windows.sh`.
+
 ## Requirements
 
 - macOS 13 Ventura or later.
